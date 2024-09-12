@@ -53,7 +53,7 @@ function Navbar() {
               </a>
             </div>
             <div className="flex items-center justify-end sm:ml-4 lg:ml-8">
-              <button className="bg-transparent border border-white rounded-full px-4 py-1">
+              <button className="bg-transparent border border-custom-green rounded-full px-4 py-1">
                 <p className="font-semibold text-base text-white">Contact</p>
               </button>
             </div>
