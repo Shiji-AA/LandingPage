@@ -8,7 +8,7 @@ import {
 function Footer() {
   return (
     <footer className="bg-custom-blue dark:bg-black flex flex-col pt-10">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 border p-30 mb-10 border-gray-600 rounded-lg">
+      <div className=" bg-custom-gradient2 mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 border p-30 mb-10 border-gray-600 rounded-lg">
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className="flex flex-wrap justify-between w-full mb-6 md:mb-0">
             <div className="w-full md:w-1/3 mb-6 md:mb-0 mt-10">

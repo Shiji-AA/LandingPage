@@ -2,7 +2,7 @@ function Courses() {
   return (
     <div className="w-full h-auto flex items-center justify-center bg-custom-blue p-5">
       <div className="w-full  h-auto bg-custom-blue p-10 flex flex-col space-y-10">
-        <div className="flex flex-col items-center text-center">
+        <div className="  flex flex-col items-center text-center">
           <button className="bg-custom-green text-white border border-custom-green rounded-full px-6 py-2 mb-4">
             Courses
           </button>
@@ -16,7 +16,7 @@ function Courses() {
           </p>
         </div>
 
-        <div className="border-2 border-gray-500 p-6 rounded-lg">
+        <div className=" bg-custom-gradient1 border-2 border-gray-500 p-6 rounded-lg">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="w-full h-64 bg-custom-blue text-white shadow-lg border-gray-500 border rounded-lg p-4">
               <h3 className="text-xl font-semibold mb-2">
@@ -42,7 +42,7 @@ function Courses() {
               .map((_, index) => (
                 <div
                   key={index}
-                  className="w-full h-64 bg-custom-blue text-white shadow-lg border-gray-500 border rounded-lg p-4"
+                  className=" w-full h-64 bg-custom-blue text-white shadow-lg border-gray-500 border rounded-lg p-4"
                 >
                   <h3 className="text-xl font-semibold mb-2">
                     Bachelor of Commerce(Bcom) {index + 2}

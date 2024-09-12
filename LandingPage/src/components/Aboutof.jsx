@@ -41,7 +41,7 @@ function Aboutof() {
               .map((_, index) => (
                 <div
                   key={index}
-                  className="w-1/4 h-64 bg-gradient-to-br from-custom-blue to-custom-green text-white shadow-lg border border-gray-600 rounded-lg p-6 flex flex-col justify-between"
+                  className="w-1/4 h-64 bg-custom-gradient text-white shadow-lg border border-gray-600 rounded-lg p-6 flex flex-col justify-between"
                 >
                   <div className=" text-custom-green text-3xl font-bold">
                     0{index + 1}
